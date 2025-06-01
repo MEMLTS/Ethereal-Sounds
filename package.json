@@ -1,0 +1,41 @@
+{
+  "name": "ethereal-sounds",
+  "version": "1.0.0",
+  "description": "解决音乐服务碎片化痛点，打造「一个应用听遍全网」的终极播放方案，以技术突破实现商业平台间的音乐互联。",
+  "keywords": [
+    "electron",
+    "music",
+    "typescript",
+    "163music"
+  ],
+  "homepage": "https://github.com/MEMLTS/Ethereal-Sounds#readme",
+  "bugs": {
+    "url": "https://github.com/MEMLTS/Ethereal-Sounds/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEMLTS/Ethereal-Sounds.git"
+  },
+  "license": "ISC",
+  "author": "MTMLTS",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/node": "^22.15.29",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "electron": "^36.3.2",
+    "eslint": "^9.28.0",
+    "eslint-plugin-vue": "^10.1.0",
+    "globals": "^16.2.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.0"
+  }
+}
